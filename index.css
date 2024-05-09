@@ -1,0 +1,590 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,body {
+    width: 100%;
+    height: 100%
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+/* navigation */
+
+nav{
+    width: 100%;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+}
+
+.nav_main{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_left{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_left img{
+    width: 50px;
+    cursor: pointer;
+}
+
+.nav_right{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav_right a {
+    
+    color: black;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-image:url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg;);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    } 
+
+.page1 h1 {
+    font-size: 55px;
+    color: white;
+    text-align: center;
+}
+
+.page1 p {
+    font-size: 18px;
+    color: white;
+}
+
+.page1_btn_area {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.page1_btn_area a {
+    height: 60px;
+    width: 180px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.page1_btn_area a:nth-child(1) {
+    background-color: rgb(100, 0, 222);
+    border: 2px solid rgb(100, 0, 222);
+}
+.page1_btn_area a:nth-child(2) {
+    background: transparent;
+    border: 2px solid white;
+}
+
+/* page2 start*/
+
+.page2{
+    
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    } 
+
+    .page2_sub {
+        width: 80%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+
+    .image{
+        /* width: 50%; */
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: blue; */
+        
+    }
+
+    .image img{
+        width: 600px;
+    }
+
+
+
+    .text p{
+        width: 400px;
+    }
+
+   
+
+    .text{
+        /* width: 50%; */
+        height: 50vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .page2_sub .text a {
+        padding: 15px 50px;
+        background-color:  rgb(100, 0, 222);
+        color: white;
+    }
+    
+
+    /* page 3 start */
+
+
+    .page3{
+    
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        } 
+    
+        .page3_sub {
+            width: 80%;
+            height: 100%;
+            /* background-color: red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 150px;
+        }
+    
+        .page3_image{
+            /* width: 50%; */
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: blue; */
+            
+        }
+    
+        .page3_image img{
+            width: 600px;
+        }
+
+    
+        .page3_text p{
+            width: 400px;
+        }
+    
+       
+    
+        .page3_text{
+            /* width: 50%; */
+            height: 50vh;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            
+        }
+    
+        .page3_sub .page3_text a {
+            padding: 15px 50px;
+            background-color:  rgb(100, 0, 222);
+            color: white;
+        }
+
+
+
+
+        .page4 {
+            height: 50vh;
+            width: 100%;
+            background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .page4_sub {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .page4 h3 {
+            font-size: 70px;
+            color: white;
+        }
+
+        .page4 p {
+            font-size: 14px;
+            color: white;
+        }
+
+        .page4 a {
+            
+            background-color: rgb(100, 0, 222);
+            border: 2px solid rgb(100, 0, 222);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 50px;
+
+        }
+
+        .page5 {
+
+            height: 110vh;
+            width: 100%;
+            
+        }
+
+        .page5_sub {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            
+        }
+
+         
+        .page5 h4 {
+            font-size: 30px;
+            
+        }
+
+        .page5 p {
+
+            font-size: 14px;
+        }
+
+        .page5 a {
+            
+            background-color: rgb(100, 0, 222);
+            border: 2px solid rgb(100, 0, 222);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 45px;
+
+        }
+
+        .page6{
+            height: 20vh;
+            width: 100%;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page7{
+            width: 100%;
+            height: auto;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .page7_sub {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .page7_sub .image{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .page7_sub .image img {
+            width: 25%;
+        }
+
+        .page8{
+            height:50vh;
+            width: 100%;
+            background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg);
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+
+        /* .page8_sub{
+            ;
+        } */
+
+        .page8 h1{
+            font-size: 35px;
+            color: white;
+            font-weight: 100;
+        }
+
+        .page8 p{
+            width: 715px;
+            color: white;
+            margin-top: 30px;
+            
+        }
+
+        .page8_sub .image img{
+            width: 100px;
+            border-radius: 50px;
+            margin-top:20px;
+        }
+
+        .page9{
+            height: 30vh;
+            width: 100%;
+            /* color: white; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -70px;
+        }
+
+        
+        .page10{
+            height: 30vh;
+            width: 100%;
+            /* color: white; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 300px;
+            
+        }
+        
+        .page10 p{
+            font-size: 30px;
+           font-weight: 300;
+        }
+
+        .page10 a{
+            
+            background-color: rgb(100, 0, 222);
+            border: 2px solid rgb(100, 0, 222);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 45px;
+            font-size: 20px;
+        }
+
+     .page11{
+            height: 20vh;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page11_sub {
+            width: 80%;
+            height: 100%;
+            /* background-color: red; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+        }
+
+        .page11_sub h1{
+            color: white;
+            font-size: 20px;
+
+        } 
+
+        .page11_image {
+            display: flex;
+            gap: 20px;
+        }
+
+        .page11_image i{
+            color: #fff;
+            font-size: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile potrait */
+
+@media (min-width:300px) and (max-width:800px) {
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+.page1 h1{
+    font-size: 30px;
+}
+
+.page1 p{
+    font-size: 13px;
+}
+
+.page1_btn_area a {
+    height: 40px;
+    width: 120px;
+}
+.image img {
+    width: 400px;
+    margin-top: 177px;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.page2 {
+        width: 100%;
+        height: 100vh;
+}
+
+.page2_sub {
+    flex-direction: column;
+}
+
+
+.page3_sub {
+    flex-direction: column;
+}
+
+.page3_image img {
+    width: 400px;
+}
+
+.page4 h3 {
+    font-size: 32px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 100%;
+    height: auto;
+}
+
+.page5 {
+    height: 67vh;
+    width: 100%;
+}
+
+.page10 {
+    height: 25vh;
+    width: 100%;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.page11_sub {
+    width: 80%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+   
+    text-align: center;
+}
+
+
+
+}
